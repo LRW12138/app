@@ -1,0 +1,231 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 507265 */
+  src: url('https://at.alicdn.com/t/font_507265_76w224q6nkaz6w29.eot');
+  src: url('https://at.alicdn.com/t/font_507265_76w224q6nkaz6w29.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_507265_76w224q6nkaz6w29.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_507265_76w224q6nkaz6w29.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_507265_76w224q6nkaz6w29.svg#iconfont') format('svg');
+}
+body{font-size: 16px;
+	font-family: "微软雅黑","苹方";}
+header{
+	width:100%;
+	height:1.77rem;
+	background-color:red;
+	position: fixed;
+	top:0;
+	left:0;
+	z-index:999;
+}
+.head-top{
+	width:100%;
+	height:.88rem;
+	background-color:#c93a3a;
+	padding:0 .24rem;
+}
+.head-top h1{font-size: .37rem;
+			 color:#fff;
+			 font-weight:bolder;
+			 float: left;
+			 line-height: .88rem;}
+.head-search{
+width:5.02rem;
+height:.57rem;
+float:right;
+margin-top:.155rem;
+background-color:#ffffff;}
+.head-search input{
+padding-left:.88rem;
+width: 100%;
+height: 100%}
+nav{width:100%;
+height:.89rem;
+background-color:#ffffff;
+padding:0 .24rem;
+display: flex;
+/* 设置内容换行 */
+flex-wrap:wrap;
+/* 设置水平单行两端对齐 */
+justify-content:space-between;
+/* 设置单行垂直对齐方式 */
+align-items:center;
+/* 设置弹性布局 */}
+nav a{color:#000;
+font-size: .34rem;}
+.nav-active{font-size: .4rem;
+color:#d43d3d;}
+.nav-more{
+	display: block;
+	width: .53rem;
+	height: 100%;
+	text-align:right;
+	box-shadow:-5px 0 30px rgba(0, 0, 0, 0.1);
+	align-self:center;
+	line-height:.89rem;
+}
+.content{position:absolute;
+	     left:0;
+	     right:0;
+	     top:1.77rem;
+	     bottom:.98rem;
+	 	 overflow-y:scroll;}
+.banner{width: 100%;
+height: 3.1rem;
+background-color: red;}
+.banner-img{width:100%;
+height:3.1rem;}
+.banner{width:100%;
+height:3.1rem;}
+.category{width:100%;
+height:1.54rem;
+background-color:#ffffff;
+padding:0 .24rem;
+display: flex;
+/* 设置内容换行 */
+flex-wrap:wrap;
+/* 设置水平单行两端对齐 */
+justify-content:space-between;
+/* 设置单行垂直对齐方式 */
+align-items:center;}
+.category li{width:1.2rem;
+height:1.25rem;
+background-color:#ffffff;
+display: flex;
+/* 设置内容换行 */
+flex-wrap:wrap;
+/* 设置水平单行两端对齐 */
+justify-content:center;
+/* 设置单行垂直对齐方式 */
+align-content:space-between;
+}
+.category-box{
+width:.72rem;height:.72rem;
+border-radius:50%;
+box-shadow:0 0 .1rem #000;
+}
+.category-wenzi{
+font-size:.28rem;
+color:#575757;
+font-weight:700;
+}
+.category li:nth-child(1) div{
+	box-shadow: 0 0 .30rem rgba(255,144,144,0.4)
+}
+.category li:nth-child(2) div{
+	box-shadow: 0 0 .30rem rgba(162,157,255,0.4)
+}
+.category li:nth-child(3) div{
+	box-shadow: 0 0 .90rem rgba(255,101,104,0.4)
+}
+.category li:nth-child(4) div{
+	box-shadow: 0 0 .30rem rgba(255,164,46,0.4)
+}
+.notice{width:100%;
+height:2.48rem;
+background-color:#ffffff;
+border-top:.02rem solid #eee;
+padding:.29rem .24rem 0;}
+.notice-top{
+	width:100%;
+	height:1.46rem;
+}
+.notice-top p{width:4.36rem;
+height:100%;
+font-size:.38rem;
+float:left;}
+.notice-img{
+	width:2.24rem;
+	height: 100%;
+	float:right;
+	background-color:#ffffff;
+}
+.notice-bottom{
+	width:100%;
+	overflow:hidden;
+	background-color:#ffffff;
+	padding-top:.24rem; 
+}
+.name,.pinglun,.time{float:left;
+margin-right:.2rem;
+font-size: .24rem;
+color:#a3a3a3;}
+.end{float:right;
+	font-size: .24rem;
+color:#a3a3a3;
+}
+.notice-top2{
+	width:100%;
+	height:0.85rem;
+	padding:0.2rem .24rem;
+	background-color:#ffffff;
+}
+.notice-top2 p{width:100%;
+font-size:.38rem;
+float:left;}
+.content .notice2{
+width:100%;
+height:3.56rem;
+background-color:#ffffff;
+padding:.02rem .24rem 0;
+border-top: .02rem solid #eee;
+}
+.notice-top2-tupian{
+	width:100%;
+	height:1.47rem;
+	background-color:#ffffff;
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.notice2-img{
+	width:2.24rem;
+	height:1.47rem;
+	background-color:#fff;
+}
+footer{
+	width: 100%;
+	height: 0.98rem;
+	background-color: white;
+	position: fixed;/* 固定定位 */
+	top: 12.36rem;
+	left: 0;
+	z-index: 999;
+	padding: 0 .24rem;
+	display: flex;
+	/* 设置内容换行 */
+	flex-wrap: wrap;
+	/* 设置水平方向对齐方式 */
+	justify-content: space-between;/* 水平两端对齐 */
+	/* 设置单行垂直对齐方式 */
+	align-items: center;
+}
+.foot-item{
+	width: .98rem;
+	height: .98rem;
+	/* background-color: black; */
+	padding-top: .22rem;
+	padding-bottom: .11rem;
+}
+.foot-item:nth-child(3){
+	padding: 0;
+}
+.foot-box{
+	width: .42rem;
+	height: .42rem;
+	/* background-color: pink; */
+	margin: auto;
+}
+.foot-wenzi{
+	font-size: .18rem;
+	color: #575757;
+	font-weight: bold;
+	text-align: center;
+}
+.foot-item .foot-shouye{
+	font-size: .42rem;
+	text-align: center;
+	line-height: .42rem;
+}
+.foot-active{
+	color: #f85959;
+}
