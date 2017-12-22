@@ -1,0 +1,89 @@
+body{width:100vw;
+height: :100vh;
+font-size:16px;
+font-family:"微软雅黑";
+}
+header{width:100%;
+height:.98rem;
+background-color:skyblue;
+text-align:center;
+line-height:.98rem;
+position:fixed;
+top:0;
+left:0;
+z-index:999;
+}
+.now-city{	font-weight: bold;
+			font-size: .4rem;}
+.citys-cover{
+			 position:absolute;
+			 left:0;
+			 top:.98rem;
+			 background-color: rgba(0, 0, 0, 0.7);
+			 overflow:hidden;
+			}
+.select{color: skyblue;}
+.province,.area
+{
+		float:left;
+		margin-right:.05rem;
+		color:#fff;
+}
+.now-state
+		{width:100%;
+		height:5rem;
+		background-image:url("../weather image/bg1.jpg");
+		position:relative;
+		margin-top:.98rem;
+		}
+.now-state span
+		{font-size:1.5rem;
+		color:#fff;
+		border-right:.01rem solid #fff;
+		float:left;}
+.now-neikuan
+		{width:3.3rem;
+		height:1.7rem;
+		position:absolute;
+		left:0;
+		right:0;
+		top:0;
+		bottom:0;
+		margin:auto;
+		}
+.box	{float:right;}
+.img	{width: .7rem;
+		 height:.7rem;
+		}
+p{color:#fff;}
+.hourly{
+		width:100%;
+		height:1.6rem;
+		background-color:#fff;
+		overflow-x:auto;
+		border-bottom: .01rem dashed #000;
+		padding:0 .24rem;
+}
+.hourly li{width:1rem;
+height:100%;
+float:left;
+margin-right:.05rem;}
+.hourly ul{width:25.4rem;
+height:100%;}
+.hourly img{width: .7rem;
+height: .7rem;
+display:block;
+margin:0 auto;}
+
+.week{
+	width:100%;
+	padding:0 .24rem;}
+.week li{display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	align-content: center;
+}
+.week p{
+	font-size: .32rem;
+	color: #b0b0b0;
+}
